@@ -1,0 +1,1 @@
+{"version":3,"sources":["brandingbar.css"],"names":[],"mappings":"AAAA,aACE,yBAA0B,AAC1B,mBAAuB,CAAE,AACzB,oCACE,eAAiB,CAAE","file":"../../components/brandingbar.min.css","sourcesContent":["#brandingbar {\n  background-color: #f0f4f5;\n  padding: 40px 0 30px 0; }\n  #brandingbar .table-layout .col img {\n    max-height: 24px; }\n"]}

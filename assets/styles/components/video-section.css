@@ -1,0 +1,45 @@
+section#video {
+  display: table;
+  width: 100%;
+  height: 100%;
+  background-color: #eee;
+  position: relative;
+  z-index: 5;
+  overflow: hidden; }
+  section#video > .video-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1; }
+    section#video > .video-container:after {
+      content: "";
+      position: absolute;
+      background: url(../images/video_filter.png) repeat;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 9999; }
+    section#video > .video-container > .video > img, section#video > .video-container > .video video, section#video > .video-container > .video canvas {
+      width: 100% !important;
+      height: 100% !important; }
+  section#video > .video-content {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center; }
+    section#video > .video-content .title {
+      color: #ffffff; }
+    section#video > .video-content .title-sub {
+      color: #ffffff; }
+    section#video > .video-content .buttons-bar {
+      margin: 40px auto; }
+      section#video > .video-content .buttons-bar .btn + .btn {
+        margin-left: 15px; }
+    section#video > .video-content .links-bar {
+      margin: 40px auto; }

@@ -1,0 +1,8 @@
+.strategy-photos {
+  margin: 100px auto 80px auto;
+  max-width: 50%; }
+  .strategy-photos .table-layout {
+    border-spacing: 25px; }
+    .strategy-photos .table-layout .col img {
+      width: auto;
+      max-width: 100%; }

@@ -1,0 +1,21 @@
+section#tab {
+  padding: 85px 0 59px;
+  position: relative;
+  z-index: 1;
+  background-color: #fff; }
+  section#tab:before, section#tab:after {
+    content: " ";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+    z-index: -1;
+    max-width: 960px; }
+  section#tab:before {
+    background: url(../images/strategy_left.jpg) 110% bottom no-repeat;
+    background-size: cover;
+    left: 0; }
+  section#tab:after {
+    background: url(../images/strategy_right.jpg) -10% bottom no-repeat;
+    background-size: cover;
+    right: 0; }

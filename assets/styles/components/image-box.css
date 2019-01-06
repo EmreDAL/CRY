@@ -1,0 +1,21 @@
+.image-box {
+  margin-bottom: 60px; }
+  .image-box img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: 56px; }
+  .image-box > .title {
+    color: #163e51;
+    padding: 27px 0 20px;
+    position: relative;
+    text-transform: none;
+    font-size: 20px; }
+    .image-box > .title:first-letter {
+      color: #3581A9;
+      font-size: 20px; }
+  .image-box > p {
+    color: #163e51;
+    letter-spacing: 0.025rem;
+    line-height: 1.6;
+    font-size: 14px; }

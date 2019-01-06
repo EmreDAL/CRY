@@ -1,0 +1,1 @@
+{"version":3,"sources":["title.css"],"names":[],"mappings":"AAAA,SACE,cAAgB,CAEG,AAErB,sBAHE,WAAe,AACf,eAAiB,CAEnB,AAGmB,aAFjB,cAAgB,CAEC","file":"../../components/title.min.css","sourcesContent":["h1.title {\n  font-size: 60px;\n  color: #ffffff;\n  font-weight: 300; }\n\nh2.title-sub {\n  font-size: 30px;\n  font-weight: 300;\n  color: #ffffff; }\n"]}

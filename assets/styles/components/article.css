@@ -1,0 +1,13 @@
+section > header {
+  margin-bottom: 70px; }
+  section > header .title {
+    margin-bottom: 30px; }
+
+section > footer {
+  margin-top: 56px; }
+
+article {
+  margin: 45px 0; }
+  article p {
+    color: #163e51;
+    font-size: 16px; }

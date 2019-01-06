@@ -1,0 +1,17 @@
+.tab nav.tab-menu .btn {
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  moz-transition: all 0.5s;
+  o-transition: all 0.5s;
+  ms-transition: all 0.5s;
+  background: transparent;
+  border: 1px solid #3389b3;
+  color: #3389b3; }
+  .tab nav.tab-menu .btn.active {
+    background-color: #3389b3;
+    color: #fff; }
+
+.tab .tab-content {
+  display: none; }
+  .tab .tab-content.active {
+    display: block; }
